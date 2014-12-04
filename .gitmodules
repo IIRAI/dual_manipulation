@@ -1,0 +1,15 @@
+[submodule "gui"]
+	path = gui
+	url = https://bitbucket.org/dualmanipulation/gui.git
+[submodule "planning"]
+	path = planning
+	url = https://bitbucket.org/dualmanipulation/planning.git
+[submodule "shared"]
+	path = shared
+	url = https://bitbucket.org/dualmanipulation/shared.git
+[submodule "state_manager"]
+	path = state_manager
+	url = https://bitbucket.org/dualmanipulation/state_manager.git
+[submodule "vision"]
+	path = vision
+	url = https://bitbucket.org/dualmanipulation/vision.git
