@@ -13,3 +13,12 @@
 [submodule "vision"]
 	path = vision
 	url = git@bitbucket.org:dualmanipulation/vision.git
+[submodule "grasp_verification"]
+	path = grasp_verification
+	url = git@bitbucket.org:dualmanipulation/grasp_verification.git
+[submodule "trajectory_planning"]
+	path = trajectory_planning
+	url = git@bitbucket.org:dualmanipulation/trajectory_planning.git
+[submodule "grasp_DB"]
+	path = grasp_DB
+	url = git@bitbucket.org:dualmanipulation/grasp_DB.git
