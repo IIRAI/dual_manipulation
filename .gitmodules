@@ -16,6 +16,9 @@
 [submodule "grasp_verification"]
 	path = grasp_verification
 	url = git@bitbucket.org:dualmanipulation/grasp_verification.git
+[submodule "ik_control"]
+	path = ik_control
+	url = git@bitbucket.org:dualmanipulation/ik_control.git
 [submodule "grasp_DB"]
 	path = grasp_DB
 	url = git@bitbucket.org:dualmanipulation/grasp_DB.git
