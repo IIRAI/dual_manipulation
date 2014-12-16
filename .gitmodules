@@ -4,9 +4,6 @@
 [submodule "planning"]
 	path = planning
 	url = git@bitbucket.org:dualmanipulation/planning.git
-[submodule "shared"]
-	path = shared
-	url = git@bitbucket.org:dualmanipulation/shared.git
 [submodule "state_manager"]
 	path = state_manager
 	url = git@bitbucket.org:dualmanipulation/state_manager.git
@@ -22,3 +19,6 @@
 [submodule "ik_control"]
 	path = ik_control
 	url = git@bitbucket.org:dualmanipulation/ik_control.git
+[submodule "shared"]
+	path = shared
+	url = git@bitbucket.org:dualmanipulation/shared.git
