@@ -19,3 +19,10 @@ When you clone this repo you will have all the submodules fixed at a certain ver
 to switch from the fixed version and then:
 
 `git submodule foreach git pull`
+
+
+To generate the documentation of the project you have to run in the project folder:
+
+`doxygen documentation.doxygen`
+
+and then open the file index.html in the generated html folder with a browser.
