@@ -26,3 +26,10 @@ To generate the documentation of the project you have to run in the project fold
 `doxygen documentation.doxygen`
 
 and then open the file index.html in the generated html folder with a browser.
+
+To use all the simulation and control suite you have to download these packages:
+
+- head: https://github.com/CentroEPiaggio/kit-head
+- arms: https://github.com/CentroEPiaggio/kuka-lwr
+- hands: https://github.com/CentroEPiaggio/pisa-iit-soft-hand
+- utilities: https://github.com/CentroEPiaggio/pacman-unipi-pkgs, https://github.com/CentroEPiaggio/ros_control
