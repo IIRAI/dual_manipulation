@@ -33,3 +33,15 @@ To use all the simulation and control suite you have to download these packages:
 - arms: https://github.com/CentroEPiaggio/kuka-lwr
 - hands: https://github.com/CentroEPiaggio/pisa-iit-soft-hand
 - utilities: https://github.com/CentroEPiaggio/pacman-unipi-pkgs, https://github.com/CentroEPiaggio/ros_control
+
+You also need to use Gazebo4 for the simulations, and install accordingly ros-{rosdistro}-gazebo4-ros-control (and related) packages.
+
+
+To compile:
+
+- cd ~/catkin_ws
+- catkin_make dual_manipulation_shared
+- cd build/dualmanipulation/shared
+- make install
+- cd ~/catkin_ws
+- catkin_make
