@@ -37,14 +37,22 @@ To use all the simulation and control suite you have to download these packages:
 You also need to use Gazebo4 for the simulations, and install accordingly ros-{rosdistro}-gazebo4-ros-control (and related) packages, plus any other dependency that will come up for the forked gazebo_ros_pkgs package (e.g. pcl_conversions if you did not have it before).
 
 For the head, arms, hands, ros_control, and gazebo_ros_pkgs, you need to checkout the multi-robot-test branch
+
 `cd {each package folder}`
+
 `git checkout multi-robot-test`
+
 
 Then, to compile:
 
 `cd ~/catkin_ws`
+
 `catkin_make dual_manipulation_shared`
+
 `cd build/dualmanipulation/shared`
+
 `make install`
+
 `cd ~/catkin_ws`
+
 `catkin_make`
