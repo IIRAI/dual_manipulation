@@ -29,18 +29,17 @@ and then open the file index.html in the generated html folder with a browser.
 
 To use all the simulation and control suite you have to download these packages:
 
-- head: https://github.com/CentroEPiaggio/kit-head
-- arms: https://github.com/CentroEPiaggio/kuka-lwr
-- hands: https://github.com/CentroEPiaggio/pisa-iit-soft-hand
-- simulations: https://github.com/CentroEPiaggio/vito_robot, https://github.com/CentroEPiaggio/ros_control, https://github.com/CentroEPiaggio/gazebo_ros_pkgs
+Clone recursively:
 
-You also need to use Gazebo4 for the simulations, and install accordingly ros-{rosdistro}-gazebo4-ros-control (and related) packages, plus any other dependency that will come up for the forked gazebo_ros_pkgs package (e.g. pcl_conversions if you did not have it before).
+`git clone --recursive https://github.com/CentroEPiaggio/vito-robot.git`
 
-For the head, arms, hands, ros_control, and gazebo_ros_pkgs, you need to checkout the multi-robot-test branch
+And checkout development branch for all of then:
 
-`cd {each package folder}`
+`cd vito-robot && git submodule foreach git checkout multi-robot-test`
 
-`git checkout multi-robot-test`
+- For simulation, you need [Gazebo4](http://gazebosim.org/tutorials?tut=install_ubuntu&ver=4.0&cat=install) or later to install `sudo apt-get install ros-indigo-gazebo4-ros` and all ['ros-controls' framework](https://github.com/ros-controls) (from `synaptic`/`apt-get` is ok as well).
+
+- For the real scenario, you need to perform camera-robot calibration. We provide a [calibration](https://github.com/CentroEPiaggio/calibration.git) package that can help you to do that. However, other method that provides where the cameras (asus and two eyes of the KIT head) are w.r.t. the world is valid.
 
 
 Then, to compile:
