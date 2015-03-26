@@ -44,14 +44,6 @@ And checkout development branch for all of then:
 
 Then, to compile:
 
-`cd ~/catkin_ws`
-
-`catkin_make dual_manipulation_shared`
-
-`cd build/dualmanipulation/shared`
-
-`make install`
-
-`cd ~/catkin_ws`
+`roscd && cd ..`
 
 `catkin_make`
