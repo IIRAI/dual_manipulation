@@ -22,3 +22,6 @@
 [submodule "shared"]
 	path = shared
 	url = git@bitbucket.org:dualmanipulation/shared.git
+[submodule "pacman-object-database"]
+	path = pacman-object-database
+	url = https://github.com/pacman-project/pacman-object-database.git
