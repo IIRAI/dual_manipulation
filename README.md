@@ -1,7 +1,7 @@
 DualManipulation software framework   {#mainpage}
 ==============================
 
-[API index](dualManipulation.bitbucket.org)
+[API index](http://dualManipulation.bitbucket.org)
 
 This repository is a container for all (or most of the) packages needed for the dualManipulation task.
 To download everything at once, simply use the command
