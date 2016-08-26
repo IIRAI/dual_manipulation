@@ -31,6 +31,18 @@ To generate the documentation of the project you have to run in the project fold
 
 and then open the file index.html in the generated html folder with a browser.
 
+Multi-Object Demo
+------------------------------
+In order to run the multi-object demo which also uses mobile robots, you will need the additional packages that can be found in the [DualManipulation project page](https://bitbucket.org/account/user/dualmanipulation/projects/PROJ).
+
+After downloading the `time_dependent_a_star` package, and any robot moveit configuration you might want to use, you need to change branch in two of the packages, which have changes not supported from the master branch
+
+```
+roscd dual_manipulation_state_manager
+git checkout multi_object_new
+roscd dual_manipulation_planner
+git checkout remote_planner_new
+```
 
 Running a full DualManipulation demo
 ==============================
