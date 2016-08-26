@@ -21,7 +21,7 @@
 	url = git@bitbucket.org:dualmanipulation/shared.git
 [submodule "lemon_ros"]
 	path = lemon_ros
-	url = git@bitbucket.org:lcr_robot/lemon_ros.git
+	url = git@bitbucket.org:dualmanipulation/lemon_ros.git
 [submodule "gmlreader"]
 	path = gmlreader
-	url = git@bitbucket.org:lcr_robot/gmlreader.git
+	url = git@bitbucket.org:dualmanipulation/gmlreader.git
