@@ -84,6 +84,13 @@ Load the simulated robot, moveit and rviz using the command
 
 `roslaunch vito_description display.launch`
 
+Real robot launch
+------------------------------
+In this way, the physical robot can be used. 
+
+- `roslaunch vito_description display.launch use_robot_sim:=false  load_moveit:=false  right_arm_enabled:=true  left_arm_enabled:=true right_hand_enabled:=true left_hand_enabled:=true use_rviz:=false`
+- `roslaunch vito_moveit_configuration pacman_demo.launch` 
+
 
 Common procedure
 ------------------------------
