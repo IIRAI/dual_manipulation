@@ -28,3 +28,6 @@
 [submodule "bezier_curve"]
         path = bezier_curve
         url = git@bitbucket.org:dualmanipulation/bezier_curve.git
+[submodule "simple_chain_ik"]
+        path = simple_chain_ik
+        url = git@bitbucket.org:dualmanipulation/simple_chain_ik.git
