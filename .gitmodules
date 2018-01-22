@@ -25,3 +25,6 @@
 [submodule "gmlreader"]
 	path = gmlreader
 	url = git@bitbucket.org:dualmanipulation/gmlreader.git
+[submodule "bezier_curve"]
+        path = bezier_curve
+        url = git@bitbucket.org:dualmanipulation/bezier_curve.git
