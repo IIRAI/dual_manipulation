@@ -1,0 +1,3 @@
+[submodule "bezier_curve"]
+	path = bezier_curve
+	url = https://github.com/CentroEPiaggio/bezier_curve.git
