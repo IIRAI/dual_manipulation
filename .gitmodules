@@ -13,6 +13,7 @@
 [submodule "ik_control_dm"]
 	path = ik_control_dm
 	url = https://github.com/CentroEPiaggio/ik_control_dm.git
+	branch = soma_devel
 [submodule "lemon_ros"]
 	path = lemon_ros
 	url = https://github.com/CentroEPiaggio/lemon_ros.git
