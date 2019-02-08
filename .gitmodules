@@ -1,5 +1,5 @@
-[submodule "gui"]
-	path = gui
+[submodule "gui_dm"]
+	path = gui_dm
 	url = https://github.com/CentroEPiaggio/gui_dm.git
 [submodule "planning"]
 	path = planning
