@@ -1,3 +1,30 @@
 [submodule "bezier_curve"]
 	path = bezier_curve
 	url = https://github.com/CentroEPiaggio/bezier_curve.git
+[submodule "gml_reader"]
+	path = gml_reader
+	url = https://github.com/CentroEPiaggio/gml_reader.git
+[submodule "grasp_db"]
+	path = grasp_db
+	url = https://github.com/CentroEPiaggio/grasp_db.git
+[submodule "gui_dm"]
+	path = gui_dm
+	url = https://github.com/CentroEPiaggio/gui_dm.git
+[submodule "ik_control_dm"]
+	path = ik_control_dm
+	url = https://github.com/CentroEPiaggio/ik_control_dm.git
+[submodule "lemon_ros"]
+	path = lemon_ros
+	url = https://github.com/CentroEPiaggio/lemon_ros.git
+[submodule "planning_dm"]
+	path = planning_dm
+	url = https://github.com/CentroEPiaggio/planning_dm.git
+[submodule "shared_dm"]
+	path = shared_dm
+	url = https://github.com/CentroEPiaggio/shared_dm.git
+[submodule "simple_chain_ik"]
+	path = simple_chain_ik
+	url = https://github.com/CentroEPiaggio/simple_chain_ik.git
+[submodule "state_manager_dm"]
+	path = state_manager_dm
+	url = https://github.com/CentroEPiaggio/state_manager_dm.git
