@@ -7,9 +7,11 @@
 [submodule "grasp_db"]
 	path = grasp_db
 	url = https://github.com/CentroEPiaggio/grasp_db.git
+	branch = soma_devel
 [submodule "gui_dm"]
 	path = gui_dm
 	url = https://github.com/CentroEPiaggio/gui_dm.git
+	branch = soma_devel
 [submodule "ik_control_dm"]
 	path = ik_control_dm
 	url = https://github.com/CentroEPiaggio/ik_control_dm.git
@@ -20,12 +22,16 @@
 [submodule "planning_dm"]
 	path = planning_dm
 	url = https://github.com/CentroEPiaggio/planning_dm.git
+	branch = soma_devel
 [submodule "shared_dm"]
 	path = shared_dm
 	url = https://github.com/CentroEPiaggio/shared_dm.git
+	branch = soma_devel
 [submodule "simple_chain_ik"]
 	path = simple_chain_ik
 	url = https://github.com/CentroEPiaggio/simple_chain_ik.git
+	branch = multi-task-velocity-solver
 [submodule "state_manager_dm"]
 	path = state_manager_dm
 	url = https://github.com/CentroEPiaggio/state_manager_dm.git
+	branch = soma_devel
