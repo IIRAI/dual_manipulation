@@ -9,7 +9,7 @@ Refer to [this page](https://help.github.com/articles/adding-a-new-ssh-key-to-yo
 
 Dependencies
 ------------
-This package requires the repository `vito-robot` and its dependencies (`kuka-lwr` and `pisa-iit-soft-hand`): follow the instructions at the [vito-robot](https://github.com/CentroEPiaggio/vito-robot.git) page.
+This package requires the repository `vito-robot` (branch: `soma_devel`) and its dependencies (`kuka-lwr` and `pisa-iit-soft-hand`): follow the instructions at the [vito-robot](https://github.com/CentroEPiaggio/vito-robot.git) page.
 
 For a real scenario with the use of vision, you might need to perform camera-robot calibration. [This](https://github.com/CentroEPiaggio/calibration.git) calibration package can help you to do that..
 
@@ -23,7 +23,7 @@ git checkout <branch-name>
 git submodule update --remote
 ```
 
-This will only update the branch registered in the .gitmodule, and by default, you will end up with a detached HEAD. Now you can `catkin_make` the packages to try out the planner.
+This will only update the branch registered in the `.gitmodule`, and by default, you will end up with a detached HEAD. Now you can `catkin_make` the packages to try out the planner.
 
 If you wish to contribute to the project, befor editing the code of a `<branch>` in `<package-folder>`, you should run the following:
 
