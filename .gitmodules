@@ -30,7 +30,7 @@
 [submodule "simple_chain_ik"]
 	path = simple_chain_ik
 	url = https://github.com/CentroEPiaggio/simple_chain_ik.git
-	branch = multi-task-velocity-solver
+	branch = melodic-devel
 [submodule "state_manager_dm"]
 	path = state_manager_dm
 	url = https://github.com/CentroEPiaggio/state_manager_dm.git
